@@ -1,0 +1,19 @@
+{
+  "caption": "PR Build Events",
+  "name": "pr_build",
+  "category": "cicd",
+  "extends": "base_event",
+  "uid": 1,
+  "attributes": {
+    "repo_name": {
+      "description": "Github repository name",
+      "group": "primary",
+      "requirement": "required"
+    },
+    "pull_request": {
+      "description": "Pull request number",
+      "group": "primary",
+      "requirement": "required"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "caption": "Categories",
+  "name": "category",
+  "description": "The OCSF categories organize event classes, each aligned with a specific domain or area of focus.",
+  "attributes": {
+    "cicd": {
+      "caption": "CICD",
+      "description": "CICD events",
+      "uid": 100
+    }
+  }
+}

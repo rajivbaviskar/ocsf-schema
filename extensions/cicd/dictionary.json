@@ -1,0 +1,17 @@
+{
+  "caption": "Attribute Dictionary",
+  "description": "The Attribute Dictionary defines schema attributes and includes references to the events and objects in which they are used.",
+  "name": "dictionary",
+  "attributes": {
+    "repo_name": {
+      "caption": "Github repostiry name",
+      "description": "Github repostiry name.",
+      "type": "string_t"
+    },
+    "pull_request": {
+      "caption": "pull request number",
+      "description": "pull request number.",
+      "type": "integer_t"
+    }
+  }
+}
